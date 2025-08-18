@@ -76,11 +76,14 @@ import wordpress from '../app/assets/svg/skills/wordpress.svg';
 import pandas from '../app/assets/svg/skills/pandas.svg';
 import scikitlearn from '../app/assets/svg/skills/scikit-learn.svg';
 import dotnet from '../app/assets/svg/skills/dotnet.svg';
-import dotnetcore from '../app/assets/svg/skills/dotnetcore.svg'
-import kubernetes from '../app/assets/svg/skills/kubernetes.svg'
-import linux from '../app/assets/svg/skills/linux.svg'
-import sqlalchemy from '../app/assets/svg/skills/sqlalchemy.svg'
-import fastapi from '../app/assets/svg/skills/fastapi.svg'
+import dotnetcore from '../app/assets/svg/skills/dotnetcore.svg';
+import kubernetes from '../app/assets/svg/skills/kubernetes.svg';
+import linux from '../app/assets/svg/skills/linux.svg';
+import sqlalchemy from '../app/assets/svg/skills/sqlalchemy.svg';
+import fastapi from '../app/assets/svg/skills/fastapi.svg';
+import flask from '../app/assets/svg/skills/flask.svg';
+import langchain from '../app/assets/svg/skills/langchain.svg';
+import n8n from '../app/assets/svg/skills/n8n.svg';
 
 
 
@@ -251,6 +254,12 @@ export const skillsImage = (skill) => {
       return sqlalchemy;
     case 'fastapi':
       return fastapi;
+    case 'flask':
+      return flask;
+    case 'langchain':
+      return langchain;
+    case 'n8n':
+      return n8n;
     default:
       break;
   }

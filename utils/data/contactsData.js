@@ -1,6 +1,6 @@
 export const contactsData = {
     email: 'mirza.malihamza@gmail.com',
-    phone: '+923295341416',
+    phone: '+92 329-5341416',
     address: 'Sargodha, Pakistan - 40100 ',
     github: 'https://github.com/M-AliHamza',
     facebook: 'https://www.facebook.com/DevAliHamza/',
